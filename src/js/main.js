@@ -1,7 +1,7 @@
 function init() {
     var webview = document.querySelector('webview');
     webview.addEventListener("loadstop", function(e){
-        webview.insertCSS({file: "style.css"});
+        webview.insertCSS({file: "css/style.css"});
     });
     webview.addEventListener('newwindow', function(e) {
         window.open(e.targetUrl);

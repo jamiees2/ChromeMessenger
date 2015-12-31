@@ -5,9 +5,9 @@
     "manifest_version": 2,
     "app": {
         "background": {
-            "scripts": ["background.js"]
+            "scripts": ["js/background.js"]
         }
     },
-    "icons": { "16": "assets/icon_16.png", "128": "assets/icon_128.png" },
+    "icons": { "16": "img/icon_16.png", "128": "img/icon_128.png" },
     "permissions": ["audioCapture", "webview", "notifications", "http://www.messenger.com/*", "https://www.messenger.com/*"]
 }

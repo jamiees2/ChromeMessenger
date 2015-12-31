@@ -1,0 +1,29 @@
+{
+  "name": "ChromeMessenger",
+  "version": "0.1.0",
+  "description": "A chrome app for Facebook Messenger",
+  "main": "",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/jamiees2/ChromeMessenger.git"
+  },
+  "keywords": [
+    "chrome",
+    "app",
+    "messenger",
+    "facebook"
+  ],
+  "author": "jamiees2",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jamiees2/ChromeMessenger/issues"
+  },
+  "devDependencies": {
+    "grunt": "^0.4.5",
+    "grunt-crx": "~1.0.3",
+    "time-grunt": "^1.3.0"
+  }
+}

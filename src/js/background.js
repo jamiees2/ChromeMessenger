@@ -1,7 +1,7 @@
 var height = 650;
 var width = 1000;
 chrome.app.runtime.onLaunched.addListener(function() {
-    chrome.app.window.create('index.htm', {
+    chrome.app.window.create('index.html', {
         id: 'messenger',
         outerBounds: {
             height: height,
